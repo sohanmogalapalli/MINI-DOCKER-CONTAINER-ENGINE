@@ -1,0 +1,28 @@
+# Build artifacts & compiled binaries
+bin/
+build/
+*.o
+*.d
+*.log
+*.a
+*.so
+
+# Test fixtures generated dynamically
+tests/fixtures/rootfs/
+
+# Presentation & PDF documents
+*.pptx
+*.pdf
+~$*
+
+# Editor & OS temporary files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]

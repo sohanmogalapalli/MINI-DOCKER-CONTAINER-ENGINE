@@ -1,0 +1,13 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Ensure shell scripts always keep LF endings (required for execution on Linux/WSL)
+*.sh text eol=lf
+Makefile text eol=lf
+
+# C / Header files
+*.c text eol=lf
+*.h text eol=lf
+
+# Documentation
+*.md text eol=lf
